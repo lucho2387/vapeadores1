@@ -1,0 +1,36 @@
+.contenedor {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1200px) {
+  .contenedor {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .contenedor {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .contenedor {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .contenedor {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .contenedor {
+    flex-direction: column;
+  }
+}

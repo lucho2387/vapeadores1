@@ -1,0 +1,125 @@
+.modalCarrito {
+  background-color: white;
+  padding: 20px;
+  width: 400px;
+  height: 797px;
+  position: relative;
+  left: 385px;
+  top: -13px;
+  text-align: center;
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalCarrito-open {
+  display: grid;
+}
+
+.nombreProducto {
+  position: relative;
+  top: 40px;
+}
+
+.botonCerrarCarrito {
+  position: relative;
+  left: 340px;
+  top: -138px;
+  color: white;
+  background-color: black;
+  /* background-color: #4a494d6e; */
+  border-radius: 20px;
+  border: none;
+  width: 40px;
+  height: 40px;
+}
+
+.botonCerrarCarrito:hover {
+  background-color: #4a494d6e;
+  color: #cdcad16e;
+}
+
+.tituloCarrito {
+  color: #cdcad16e;
+  /* color: black; */
+  font-weight: 700;
+  margin-top: -30px;
+  background-color: #fe4c50;
+  padding: 20px;
+}
+
+.containerPago {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.botonPago {
+  width: 360px;
+  height: 40px;
+  margin-bottom: -20px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-weight: 700;
+}
+
+.botonPago:hover {
+  background-color: #fe4c50;
+  color: white;
+}
+
+@media only screen and (max-width: 1590px) {
+  .modalCarrito {
+    position: relative;
+    left: 35px;
+    top: 10px;
+    height: 780px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .modalCarrito {
+    position: relative;
+    left: 35px;
+    top: 12px;
+    height: 780px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .modalCarrito {
+    position: relative;
+    left: 25px;
+    top: 12px;
+    height: 780px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .modalCarrito {
+    position: relative;
+    left: 30px;
+    top: 12px;
+    height: 780px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .modalCarrito {
+    position: relative;
+    left: -19px;
+    top: 58px;
+    height: 750px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .modalCarrito {
+    position: relative;
+    left: -95px;
+    top: 19px;
+    height: 802px;
+  }
+}

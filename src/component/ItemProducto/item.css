@@ -1,0 +1,46 @@
+.contenedorProducto {
+  width: 300px;
+  height: 420px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #b5aec436;
+  margin: 20px;
+
+  /* margin-left: 500px;  */
+}
+
+.botonProducto {
+  border: none;
+  margin: 20px;
+  margin-top: 40px;
+  background-color: #fe4c50;
+  width: 250px;
+  height: 30px;
+  border-radius: 10px;
+  position: relative;
+  top: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.spanProducto {
+  color: #fe4c50;
+  font-size: 18px;
+  margin: 10px;
+}
+
+.imagenProducto1 {
+  width: 120px;
+  height: 180px;
+  margin-top: 20px;
+}
+
+.tituloProducto {
+  color: #6d6b74d7;
+  font-size: 17px;
+}
+
+.precioProducto {
+}
