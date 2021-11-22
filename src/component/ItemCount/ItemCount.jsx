@@ -2,31 +2,31 @@ import { Fragment,useState } from "react";
 import './ItemCount.css'; 
 
 
-const ItemCount = (props) => {
+const ItemCount = ({nombre, img, precio, stock}) => {
     
     //Inicial
     const [numero, setNumero] = useState(1)
 
-    const Incrementar = () => {
-        setNumero(numero + 1);
+    const onIncrease = () => {
+        setNumero(numero < stock ? numero + 1 : numero);
     }
 
-    const Disminuir = () => {
-        setNumero(numero > 0 ? numero - 1 : numero);
+    const onDecrease = () => {
+        setNumero(numero > 1 ? numero - 1 : numero);
     }
-
-
+   
     return (
         <Fragment>
-            <h2 className="nombreProducto">{props.nombre}</h2>
+            <h2 className="nombreProducto">{nombre}</h2>
             <div className="container">
-                <img className="imagenProducto" src={props.img} alt="" />
-                <button className="botonDisminuir"  onClick={Disminuir}>-</button>
+                <img className="imagenProducto" src={img} alt="" />
+                <button className="botonDisminuir"  onClick={onDecrease}>-</button>
                 <h3 className="cantidad">{`${numero}`}</h3>
-                <button className="botonIncrementar" onClick={Incrementar}>+</button>
-                <h4 className="precioProducto">Precio<span className="spanPrecio"> $ {props.precio}</span></h4>
-             </div>
+                <button className="botonIncrementar" onClick={onIncrease}>+</button>
+                <h4 className="precioProducto">Total<span className="spanPrecio"> $ {precio * numero}</span></h4>
+            </div>
         </Fragment>
+        
     )
 }
 
