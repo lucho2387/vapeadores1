@@ -1,0 +1,119 @@
+.modalDetalle {
+    background-color: rgba(0, 0, 0, 0.85);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal__dialog {
+    background: white;
+    padding: 10px;
+    width: 600px;
+    height: 600px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modalDetalle-open {
+    display: grid;
+}
+
+.botonCerrarDetalle {
+    position: relative;
+    left: 310px;
+    top: -85px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    background-color: #fe4c50;
+}
+
+.tituloDetalle {
+    font-size: 28px;
+    color: #6d6b74d7;
+    margin-bottom: 30px;
+}
+.colorDetalle {
+    color: #fe4c50;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.precioDetalle {
+    color: #6d6b74d7;
+    font-size: 22px;
+}
+
+.imagenDetalle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenTamaño {
+    width: 200px;
+    height: 320px;
+    margin-left: 80px;
+}
+
+.textoDetalle {
+    text-align: justify;
+    font-size: 12px;
+    margin-right: 100px;
+}
+@media only screen and (max-width: 650px) {
+    .modal__dialog {
+        width: 500px;
+        height: 700px;
+    }
+
+    .botonCerrarDetalle {
+        position: relative;
+        left: 252px;
+        top: -135px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .modal__dialog {
+        width: 400px;
+        height: 700px;
+    }
+
+    .imagenTamaño {
+        width: 200px;
+        height: 250px;
+        margin-left: 80px;
+        position: relative;
+        left: -30px;
+    }
+
+    .textoDetalle {
+        text-align: justify;
+        font-size: 12px;
+        margin: 20px;
+    }
+
+    .imagenDetalle {
+        flex-direction: column;
+    }
+
+    .botonCerrarDetalle {
+        position: relative;
+        left: 210px;
+        top: -90px;
+        
+    }
+}
