@@ -6,18 +6,18 @@ const CardWidget = (props) => {
     
     const[isOpenCarrito, setIsOpenCarrito] = useState(false)
 
-    const openCarrito = () => {
-         setIsOpenCarrito(true)
+    const onOpenCarrito = () => {
+        setIsOpenCarrito(true)
     }
 
-    const closeCarrito = () => {
-         setIsOpenCarrito(false)
+    const onCloseCarrito = () => {
+        setIsOpenCarrito(false)
     }
     
     return (
         <>
         <li className = {props.estiloLista}>
-            <a href="#" onClick={openCarrito} className = {props.estiloEnlace}>
+            <a href="#" onClick={onOpenCarrito} className = {props.estiloEnlace}>
                 <i className={props.icono} arial-hidden="true"></i>
                 <span className={props.estiloSpan}>{props.valor}</span>
             </a>
@@ -25,7 +25,8 @@ const CardWidget = (props) => {
         <ModalCarrito
             titulo="Modal de Productos"
             isOpen={isOpenCarrito}
-            closeCarrito={closeCarrito}
+            totalCompra = "1250"
+            closeCarrito={onCloseCarrito}
         />
         </>
     )
