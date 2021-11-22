@@ -1,0 +1,39 @@
+[
+    {
+        "name": "Kit Vaporesso Sky Solo Plus",
+        "colour": "gris",
+        "image": "img/vaporizador1.png",
+       "id": "1",
+        "stock": "2",
+        "price": "8.157",
+        "detail": "Lo que hace que este kit sea exclusivo es que es el primer kit de un solo cuerpo para todo uso en la línea de SMOK. Viene con una batería interna integrada de 1650 mAh y un sistema de voltaje de salida directa para proporcionar la máxima potencia."
+    },
+    {
+        "name": "Kit Voopoo Argus",
+        "colour": "azul",
+        "image": "img/vaporizador2.png",
+       "id": 2,
+        "stock": 5,
+        "price": 15.645,
+        "detail": "El kit Voopoo Argus está diseñado para el vaper serio. Con una construcción duradera de aleación de zinc, el Argus hace alarde de un acabado de cuero acentuado que ofrece agarre y clase. Maxima duracion. Estilo muy personalizado."
+    },
+    {
+        "name": "Kit Voopoo Argus X",
+        "colour": "negro",
+        "image": "img/vaporizador3.png",
+       "id": "adsas2",
+        "stock": 3,
+        "price": 11.025,
+        "detail": "ARGUS X actualiza una vez más la definición de estética exterior. La gran duración de la batería, el chip GENE.TT y la potente salida de 80 W le brindarán una experiencia de valor sin precedentes. Una vez que empiezas, no puedes dejarlo."
+    },
+    {
+        "name": "Kit Vaporesso Swag 80W",
+        "colour": "amarillo y negro",
+        "image": "img/vaporizador4.png",
+        "id": "1asdsad2312",
+        "stock": "4",
+        "price": 11.445,
+        "detail": "Es un potente vaporizador con voltaje variable tipo pluma, que integra una batería recargable de 2800mAh, un botón de salida de potencia ajustable y está equipado con el nuevo tanque SMOK TF para extraer el mejor sabor y maxima duracion."
+    }
+    
+]
