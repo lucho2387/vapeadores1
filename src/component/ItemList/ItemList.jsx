@@ -1,23 +1,23 @@
-import Item from '../ItemProducto/Item'
+import ItemDetailContainer from '../ItemProducto/itemDetailContainer'
 import './itemList.css'
 
 
 const ItemList = ({items}) => {
-
     return (
         <>
         <div className="contenedor">
             {
                 //map recorre el arreglo productos
-                items.map((producto) => {
+                items.map((product) => {
                     return (
-                        <Item
-                        key={producto.codigo}
-                        nombre={producto.nombre}
-                        imagen={producto.imagen}
-                        color={producto.color}
-                        stock={producto.stock}
-                        precio={producto.precio}
+                        <ItemDetailContainer
+                        key={product.id}
+                        name={product.name}
+                        image={product.image}
+                        colour={product.colour}
+                        stock={product.stock}
+                        price={product.price}
+                        detail={product.detail}
                         />
                     )
                 })
