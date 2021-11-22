@@ -5,8 +5,8 @@
 /* class -> className */
 import React from 'react'
 import Header from './component/Header/Header';
+import Slider from './component/Slider/Slider';
 import ItemListContainer from './component/ItemListContainer/ItemListContainer';
-import ItemListContainer2 from './component/ItemListContainer/ItemListContainer2';
 
 
 
@@ -16,11 +16,10 @@ const App = () => {
   return (
     <> 
       <Header />
-      <ItemListContainer
-       greeting="Bienvenidos"
+      <Slider
+        greeting="Bienvenidos"
       />
-      <ItemListContainer2 />
-   
+      <ItemListContainer />
     </>
   )
 }
