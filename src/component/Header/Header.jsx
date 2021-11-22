@@ -1,13 +1,13 @@
 import './index.css';
 import Item from "../../component/Item/Item"
 import Item2 from "../../component/Item/Item2"
-import Enlace from "../../component/Enlace/Enlace"
+import MenuHamburguesa from "../MenuHamburguesa/MenuHamburguesa"
 import CardWidget from "../../component/CardWidget/CardWidget"
 
 const Header = () => {
     return (
             <header className = "header trans_300">
-                <Enlace estilo="menuHamburguesa" icono="fas fa-bars"/>
+                <MenuHamburguesa estilo="menuHamburguesa" icono="fas fa-bars"/>
                 <a href="#" className = "logo">Vape<span>Shop</span></a>
                 <nav className="navbar">
                     <ul className="navbar_menu">
