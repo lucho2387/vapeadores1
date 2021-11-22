@@ -1,0 +1,76 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.botonIncrementar,
+.botonDisminuir {
+  padding: 10px;
+  margin: 2px;
+  margin-top: 50px;
+  margin-left: 10px;
+  border: none;
+  background-color: white;
+  color: #b5aec4;
+  margin-top: -180px;
+}
+
+.botonIncrementar:hover,
+.botonDisminuir:hover {
+  color: #fe4c50;
+  font-size: 24px;
+  transition: all 600ms ease;
+}
+
+.cantidad {
+  margin: 10px;
+  padding-left: 10px;
+  margin-top: -170px;
+  color: #b5aec4;
+}
+
+.botonAgregar {
+  margin: 10px;
+  margin-left: 15px;
+  width: 125px;
+  height: 30px;
+  border-radius: 50px;
+  border: none;
+  background-color: white;
+  color: #b5aec4;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+.botonAgregar:hover {
+  background-color: #fe4c50;
+  color: white;
+}
+
+.nombreProducto {
+  font-size: 12px;
+  color: #fe4c50;
+  margin-top: -250px;
+}
+
+.imagenProducto {
+  width: 80px;
+  height: 100px;
+  margin-top: -200px;
+}
+
+.precioProducto {
+  position: relative;
+  top: -50px;
+  left: -50px;
+  padding: 10px;
+}
+
+.spanPrecio {
+  color: black;
+}

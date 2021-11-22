@@ -1,0 +1,12 @@
+.tituloPrincipal {
+  height: 100vh;
+  background-color: #fe4c50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  color: white;
+  font-weight: 300;
+  letter-spacing: 10px;
+  font-size: 30px;
+}
