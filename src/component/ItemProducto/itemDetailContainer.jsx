@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import ItemDetail from './ItemDetail'
 import './itemDetailContainer.css'
 
-const itemDetailContainer = ({id, name, image, colour, stock, price, detail}) => {
+const ItemDetailContainer = ({id, name, image, colour, stock, price, detail}) => {
     
     // eslint-disable-next-line react-hooks/rules-of-hooks
     const [isOpenDetail, setIsOpenDetail] = useState(false);
@@ -37,4 +37,4 @@ const itemDetailContainer = ({id, name, image, colour, stock, price, detail}) =>
     )
 }
 
-export default itemDetailContainer
+export default ItemDetailContainer
